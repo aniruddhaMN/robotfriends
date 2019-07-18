@@ -25,6 +25,7 @@ class App extends Component {
     return( 
         <div className = 'tc'>
             <h1 id = 'heading'>Robot Friends</h1>
+            <h1>This is the change made</h1>
             <Searching searchChange = {this.onSearchChange}/>
             <Scroll>
                 <ErrorBoundry>
